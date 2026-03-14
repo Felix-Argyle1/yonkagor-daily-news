@@ -1,0 +1,8 @@
+app = "yonkagor-bot"
+primary_region = "ord"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PYTHONUNBUFFERED = "true"
